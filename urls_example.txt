@@ -1,0 +1,69 @@
+# Archivo de ejemplo para descarga en lote
+# Formato: Una URL por línea
+# Las líneas que comienzan con # son comentarios y se ignoran
+# Las líneas vacías también se ignoran
+
+# YOUTUBE
+# https://youtube.com/watch?v=VIDEO_ID
+# https://youtu.be/VIDEO_ID
+
+# TIKTOK
+# https://www.tiktok.com/@usuario/video/12345678901234567890
+# https://vm.tiktok.com/12345678901
+
+# INSTAGRAM
+# https://www.instagram.com/p/POSTID/
+# https://www.instagram.com/reel/REELID/
+
+# FACEBOOK
+# https://www.facebook.com/usuario/videos/12345678901234567890/
+
+# X / TWITTER
+# https://x.com/usuario/status/1234567890
+# https://twitter.com/usuario/status/1234567890
+
+# THREADS
+# https://www.threads.net/@usuario/post/12345678901234567890
+
+# PINTEREST
+# https://www.pinterest.com/pin/12345678901234567890/
+# https://pin.it/12345ABCDE
+
+# REDDIT
+# https://www.reddit.com/r/subreddit/comments/abc123/title/
+
+# VIMEO
+# https://vimeo.com/123456789
+
+# SOUNDCLOUD
+# https://soundcloud.com/usuario/cancion-nombre
+
+# DAILYMOTION
+# https://www.dailymotion.com/video/x1234567
+
+# ============================================================
+# INSTRUCCIONES DE USO
+# ============================================================
+#
+# 1. Edita este archivo y agrega las URLs que deseas descargar
+#
+# 2. Ejecuta en tu terminal:
+#    python3 main.py -f urls_example.txt --format best
+#
+# 3. Para descargar solo audio:
+#    python3 main.py -f urls_example.txt --audio --audio-format mp3
+#
+# 4. Para una calidad específica:
+#    python3 main.py -f urls_example.txt --format 720p
+#
+# 5. Ver los logs:
+#    cat ./logs/downloads_*.log
+#
+# ============================================================
+
+# EJEMPLOS REALES (descomenta para usar)
+# https://youtube.com/watch?v=dQw4w9WgXcQ
+# https://www.tiktok.com/@tiktok/video/1234567890123456789
+# https://www.instagram.com/p/ABC123DEF456/
+
+# FIN DEL ARCHIVO

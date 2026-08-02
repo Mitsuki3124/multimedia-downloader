@@ -1,0 +1,110 @@
+# Configuración de Multimedia Downloader
+# Este archivo contiene todas las opciones configurables
+
+# Directorios de salida
+output_dirs:
+  base: "./downloads"
+  youtube: "downloads/YouTube"
+  tiktok: "downloads/TikTok"
+  instagram: "downloads/Instagram"
+  facebook: "downloads/Facebook"
+  x: "downloads/X"
+  threads: "downloads/Threads"
+  pinterest: "downloads/Pinterest"
+  reddit: "downloads/Reddit"
+  vimeo: "downloads/Vimeo"
+  dailymotion: "downloads/Dailymotion"
+  soundcloud: "downloads/SoundCloud"
+  other: "downloads/Otros"
+
+# Configuración de video
+video:
+  format: "best"  # best, 1080p, 720p, 480p, 360p, audio_only
+  codec: "h264"  # h264, vp9, av1
+  extension: "mp4"  # mp4, webm, mkv
+  quality: "best"  # best, highest, high, medium, low
+  fps: 30  # fotogramas por segundo (optional)
+
+# Configuración de audio
+audio:
+  format: "mp3"  # mp3, m4a, aac, opus, vorbis, wav
+  quality: "192"  # 128, 192, 256, 320 kbps
+  extract_only: false  # Si es true, solo extrae audio
+
+# Configuración de imagen
+image:
+  format: "jpg"  # jpg, png, webp
+  quality: 95  # 1-100
+
+# Patrones de nombrado
+naming:
+  pattern: "%(title)s.%(ext)s"  # %(title)s, %(uploader)s, %(upload_date)s, %(id)s
+  sanitize: true  # Sanitiza caracteres especiales en nombres
+
+# Descarga
+download:
+  max_retries: 3
+  retry_delay: 2  # segundos entre reintentos
+  timeout: 30  # segundos para timeout
+  concurrent: false  # Descargas concurrentes (experimental)
+  socket_timeout: 30
+  sleep_interval: 2  # Pausa entre descargas (cortesía)
+  skip_unavailable: true  # Omite videos no disponibles en lotes
+
+# Logs
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file_path: "./logs"
+  console_output: true
+  detailed_errors: true
+  archive_old_logs: true  # Archiva logs antiguos
+
+# Demux (separación de streams)
+demux:
+  enabled: false
+  audio_codec: "aac"
+  video_codec: "h264"
+
+# Metadatos
+metadata:
+  extract: true
+  download_subtitles: false
+  subtitle_lang: "es"  # idioma preferido
+
+# Plataformas soportadas
+platforms:
+  youtube:
+    enabled: true
+    age_gate: false
+  tiktok:
+    enabled: true
+  instagram:
+    enabled: true
+  facebook:
+    enabled: true
+  x:
+    enabled: true
+  threads:
+    enabled: true
+  pinterest:
+    enabled: true
+  reddit:
+    enabled: true
+  vimeo:
+    enabled: true
+  soundcloud:
+    enabled: true
+  generic:
+    enabled: true  # URLs genéricas
+
+# User-Agent
+user_agent: "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36"
+
+# Proxy (opcional)
+proxy:
+  enabled: false
+  http: ""
+  https: ""
+
+# Verificación de certificados SSL
+ssl_verify: true
