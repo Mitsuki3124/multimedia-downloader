@@ -3,19 +3,19 @@
 
 # Directorios de salida
 output_dirs:
-  base: "./downloads"
-  youtube: "downloads/YouTube"
-  tiktok: "downloads/TikTok"
-  instagram: "downloads/Instagram"
-  facebook: "downloads/Facebook"
-  x: "downloads/X"
-  threads: "downloads/Threads"
-  pinterest: "downloads/Pinterest"
-  reddit: "downloads/Reddit"
-  vimeo: "downloads/Vimeo"
-  dailymotion: "downloads/Dailymotion"
-  soundcloud: "downloads/SoundCloud"
-  other: "downloads/Otros"
+  base: "/storage/emulated/0/Download/Multimedia"
+  youtube: "/storage/emulated/0/Download/Multimedia/YouTube"
+  tiktok: "/storage/emulated/0/Download/Multimedia/TikTok"
+  instagram: "/storage/emulated/0/Download/Multimedia/Instagram"
+  facebook: "/storage/emulated/0/Download/Multimedia/Facebook"
+  x: "/storage/emulated/0/Download/Multimedia/X"
+  threads: "/storage/emulated/0/Download/Multimedia/Threads"
+  pinterest: "/storage/emulated/0/Download/Multimedia/Pinterest"
+  reddit: "/storage/emulated/0/Download/Multimedia/Reddit"
+  vimeo: "/storage/emulated/0/Download/Multimedia/Vimeo"
+  dailymotion: "/storage/emulated/0/Download/Multimedia/Dailymotion"
+  soundcloud: "/storage/emulated/0/Download/Multimedia/SoundCloud"
+  other: "/storage/emulated/0/Download/Multimedia/Otros"
 
 # Configuración de video
 video:
