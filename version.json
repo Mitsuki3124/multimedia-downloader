@@ -2,6 +2,6 @@
   "version": "2.0.0",
   "fecha": "2026-09-24",
   "url_descarga_recursos": "https://raw.githubusercontent.com/mitsuki3124/multimedia-downloader/main/recursos.zip",
-  "url_apk": "https://raw.githubusercontent.com/mitsuki3124/multimedia-downloader/main/descargas/Lexycast_v2.0.0.apk",
-  "descripcion": "Soporte ilimitado de fondos + sistema de actualización"
+  "url_apk": "https://github.com/Mitsuki3124/multimedia-downloader/releases/download/v2.0.0/Lexycast_v2.0.0.apk",
+  "descripcion": "Detección automática de fondos sin límite + sistema de actualización"
 }
